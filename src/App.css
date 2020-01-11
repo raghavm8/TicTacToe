@@ -1,22 +1,22 @@
-.App {
-  text-align: center;
+.container{
+    text-align: center;
+    color: rgb(0, 195, 255);
 }
 
-.App-logo {
-  height: 40vmin;
+.box{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 5px groove blue;
+    line-height: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.board{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
 }
 
-.App-link {
-  color: #09d3ac;
+.but{
+    align-self: center;
 }

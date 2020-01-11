@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(game.jpg);
+  background-repeat: no-repeat ;
+  background-size: 1550px 740px;
 }
 
 code {
